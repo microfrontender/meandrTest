@@ -1,0 +1,44 @@
+.about
+    padding-bottom: -20px
+    background: #F7F5FA
+    &__inner
+        
+        display: flex
+        justify-content: center
+    &__items
+        position: relative
+        top: -100px
+        display: flex
+        flex-wrap: wrap
+        max-width: 972px
+        width: 100%
+        border: 1px solid #EDEDED
+        background: #ffffff
+    &__item
+        display: flex
+        flex-direction: column
+        flex-basis: 50%
+        padding: 50px 70px 60px 60px
+        &:nth-child(2n+1)
+            border-right: 1px solid #EDEDED
+            border-bottom: 1px solid #EDEDED
+        &:nth-child(2n)
+            border-bottom: 1px solid #EDEDED
+        &:nth-last-child(2)
+            border-bottom: none
+        &:nth-last-child(1)
+            border-right: none
+            border-bottom: none
+    &__item-title
+        font-size: 12px
+        line-height: 19px
+        letter-spacing: 0.04em
+        text-transform: uppercase
+        color: #F47821
+        font-weight: bold
+    &__item-text
+        margin-top: 12px
+        font-size: 24px
+        line-height: normal
+        letter-spacing: -0.03em
+        color: #222222

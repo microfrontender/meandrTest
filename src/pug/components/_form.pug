@@ -1,0 +1,31 @@
+section.form#form
+    .container
+        .form__inner
+            h2.title.title_small.title_white Теперь расскажите о себе
+            form.form__form(action="")
+                .row
+                    .form__number 
+                        span 1
+                    label.form__label(for="")
+                        span.form__name Фамилия и имя
+                        input.form__input(type="text" placeholder="Сидоров Александр")
+                .row
+                    .form__number
+                        span 2
+                    label.form__label(for="")
+                        span.form__name Электронная почта
+                        input.form__input(type="text" placeholder="Sidorov@yandex.ru")
+                .row
+                    .form__number
+                        span 3
+                    label.form__label(for="")
+                        span.form__name Телефон
+                        input.form__input(type="text" placeholder="+7 (999)-328-14-20")
+                .row
+                    .form__number
+                        span 4
+                    label.form__label(for="")
+                        span.form__name Какой деятельностью, не связанной с текущими проектами, вы бы хотели заниматься в рабочее время?
+                        textarea(name="", cols="30", rows="10" placeholder="Свой проект по созданию универсальной инфраструктуры строительства").form__input.form__input_textarea
+                input.form__btn(type="submit" value="Отправить")
+                    

@@ -1,4 +1,4 @@
-# Webpack 4 Boilerplate ES6/Sass/Pug 
+# Meadr Test
 
 What's inside:
 
